@@ -1,0 +1,433 @@
+img {
+    width: 100%;
+    display: block;
+}
+
+section {
+    max-width: 1920px;
+    margin: 100px;
+    text-align: justify;
+}
+
+header {
+
+    height: 10vw;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(svg/baggrund.svg);
+    height: 1080px;
+    position: relative;
+
+}
+
+footer h3 {
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#logo {
+    position: relative;
+    width: 8vw;
+    height: 31vw;
+    top: -11vw;
+    left: 8vw;
+}
+
+.pink_text h1 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 800;
+    color: rgb(252, 3, 145);
+    line-height: 0vw;
+    font-size: 10vw;
+    padding-left: 0vw;
+    position: relative;
+    top: -20vw;
+    left: 11vw;
+    margin-left: 1vw;
+}
+
+/*billede */
+
+.image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#mig {
+    position: relative;
+    width: 8vw;
+    height: 31vw;
+    top: -97vw;
+    left: 60vw;
+}
+
+#arbejde {
+    position: relative;
+    width: 12vw;
+    height: 31vw;
+    top: -154vw;
+    left: 56vw;
+}
+
+/*Menu */
+.menu {
+    overflow: hidden;
+    float: left;
+}
+
+
+.menu .content {
+    display: block;
+    top: 3.5vw;
+    left: 58vw;
+    position: absolute;
+
+}
+
+.content a {
+    text-align: center;
+    color: #f4efe6;
+    font-size: 1.1vw;
+    text-decoration: none;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+    margin-left: 45px;
+}
+
+
+.menu .content a:hover {
+    color: #fc0391;
+}
+
+@media (min-width: 600px) {
+    /*Cases*/
+
+    #cases .section_wrapper {
+        display: grid;
+        position: relative;
+        top: 50%;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top: 25px;
+    }
+
+    #cases .col {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 20px;
+        position: relative;
+
+    }
+
+    .col1 {
+        padding-bottom: 2rem;
+        background-color: #18191c;
+        padding-left: 2rem;
+        padding-top: 2rem;
+        padding-right: 2rem;
+    }
+
+    .col2 {
+        padding-bottom: 2rem;
+        background-color: #18191c;
+        padding-left: 2rem;
+        padding-top: 2rem;
+        padding-right: 2rem;
+
+    }
+
+    .col3 {
+        padding-bottom: 2rem;
+        background-color: #18191c;
+        padding-left: 2rem;
+        padding-top: 2rem;
+        padding-right: 2rem;
+    }
+
+    /*
+    .col4 {
+        padding-bottom: 2rem;
+        background-color: #18191c;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-top: 6rem;
+        grid-row-gap: 2rem;
+    }
+*/
+
+    #ikon1 {
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin: auto;
+    }
+
+    #ikon2 {
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin: auto;
+    }
+
+    #ikon3 {
+        display: block;
+        width: 175px;
+        margin: auto;
+    }
+
+}
+
+h2 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 800;
+    color: rgb(252, 3, 145);
+    line-height: 0vw;
+    font-size: 3vw;
+    padding-left: 0vw;
+    position: relative;
+    top: -1vw;
+    left: -1vw;
+    margin-left: 1vw;
+}
+
+h3 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bold;
+    color: rgb(252, 3, 145);
+    line-height: 0vw;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+    line-height: 1.2vw;
+    font-size: 0.8vw;
+    text-align: center;
+}
+
+.col col2 h2 {
+    padding-bottom: 8rem;
+}
+
+form {
+    display: flex;
+    padding: 25px;
+    padding-top: 10px;
+    flex-direction: column;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+form label {
+    color: rgb(252, 3, 145);
+    grid-template-columns: 30% 70%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 1vw;
+    margin-top: 5px;
+
+}
+
+form input,
+textarea {
+    border: 2px white;
+    margin-top: 5px;
+}
+
+form submitButton {
+    /* Green */
+    border-color: white;
+    color: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#burgerfane {
+    background-color: #fc0391;
+    margin-right: 18rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-decoration: none;
+    line-height: 1.6;
+    z-index: 2;
+    position: relative;
+    text-align: left;
+    left: 2rem;
+    top: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
+}
+
+.headerlistemobil a {
+    color: white;
+    text-decoration: none;
+}
+
+.headerlistemobil a:hover {
+    color: #1d1d1d;
+}
+
+#burgerfane a {
+    font-size: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+#burgerknap {
+    color: white;
+    display: inline-block;
+    font-size: 2rem;
+    position: absolute;
+    left: 2rem;
+
+}
+
+pointer {
+    cursor: pointer;
+}
+
+@media (min-width:900px) {
+
+
+    .headerlistemobil {
+        display: none;
+
+    }
+
+    .logotext h3 {
+        display: none;
+    }
+
+}
+
+@media (max-width:900px) {
+
+    .menubar {
+        display: none;
+
+    }
+
+
+    #logo {
+        display: none;
+    }
+
+    .pink_text h1 {
+        display: none;
+    }
+
+    .logotext h3 {
+        z-index: auto;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        color: white;
+        font-size: 0.9rem;
+        position: absolute;
+        left: 6rem;
+        top: 0rem;
+    }
+
+    #ikon1 {
+        display: block;
+        width: 35px;
+        height: 35px;
+        margin: auto;
+    }
+
+    #ikon2 {
+        display: block;
+        width: 35px;
+        height: 35px;
+        margin: auto;
+    }
+
+    #ikon3 {
+        display: block;
+        width: 125px;
+        margin: auto;
+    }
+
+    .col1 {
+        padding-bottom: 1rem;
+        background-color: #18191c;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        padding-right: 1rem;
+    }
+
+    .col2 {
+        padding-bottom: 1rem;
+        background-color: #18191c;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        padding-right: 1rem;
+
+    }
+
+    .col3 {
+        padding-bottom: 1rem;
+        background-color: #18191c;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        padding-right: 1rem;
+    }
+
+    h3 {
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-weight: bold;
+        color: rgb(252, 3, 145);
+        line-height: 4vw;
+        font-size: 3vw;
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+
+    }
+
+    h2 {
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-weight: bold;
+        color: rgb(252, 3, 145);
+        line-height: 0vw;
+        font-size: 7vw;
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        color: white;
+        line-height: 3vw;
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    form label {
+        color: rgb(252, 3, 145);
+        grid-template-columns: 30% 70%;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-size: 2.5vw;
+        margin-top: 5px;
+
+    }
+}

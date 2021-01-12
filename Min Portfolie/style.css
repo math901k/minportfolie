@@ -1,0 +1,298 @@
+img {
+    width: 100%;
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(svg/baggrund.svg);
+    height: 1080px;
+    position: relative;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+
+    height: 10vw;
+}
+
+footer h3 {
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#logo {
+    position: relative;
+    width: 8vw;
+    height: 31vw;
+    top: -11vw;
+    left: 8vw;
+}
+
+
+
+.pink_text h1 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 800;
+    color: rgb(252, 3, 145);
+    line-height: 0vw;
+    font-size: 10vw;
+    padding-left: 0vw;
+    position: relative;
+    top: 2vw;
+    left: 7vw;
+    margin-left: 1vw;
+}
+
+@media (min-width: 600px) {
+
+    /*billede */
+
+    .image {
+        position: relative;
+        width: 17.8vw;
+        height: 53vw;
+        top: -35vw;
+        left: 73vw;
+    }
+
+    #mig {
+        position: relative;
+        width: 8vw;
+        height: 8vw;
+        top: -75vw;
+        left: 66vw;
+    }
+
+    #arbejde {
+        position: relative;
+        width: 12vw;
+        height: 7vw;
+        top: -108vw;
+        left: 60vw;
+    }
+
+    .glow {
+        animation-name: glow_kf;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: both;
+
+
+    }
+
+    @keyframes glow_kf {
+        0% {
+            filter: drop-shadow(0px 0px 1px rgb(252, 3, 145))
+        }
+
+        50% {
+            filter: drop-shadow(0px 0px 10px rgb(252, 3, 145))
+        }
+
+        110% {
+            filter: drop-shadow(0px 0px 1px rgb(252, 3, 145))
+        }
+
+    }
+
+}
+
+/*Menu */
+.menu {
+    overflow: hidden;
+    float: left;
+}
+
+
+.menu .content {
+    display: block;
+    top: 3.5vw;
+    left: 58vw;
+    position: absolute;
+}
+
+.content a {
+    text-align: center;
+    color: #f4efe6;
+    font-size: 1.1vw;
+    text-decoration: none;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+    margin-left: 45px;
+}
+
+
+.menu .content a:hover {
+    color: #fc0391;
+}
+
+
+#burgerfane {
+    background-color: #fc0391;
+    margin-right: 18rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-decoration: none;
+    line-height: 1.6;
+    z-index: 2;
+    position: relative;
+    text-align: left;
+    left: 2rem;
+    top: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
+}
+
+.headerlistemobil a {
+    color: white;
+    text-decoration: none;
+}
+
+.headerlistemobil a:hover {
+    color: #1d1d1d;
+}
+
+#burgerfane a {
+    font-size: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+#burgerknap {
+    color: white;
+    display: inline-block;
+    font-size: 2rem;
+    position: absolute;
+    left: 2rem;
+
+}
+
+pointer {
+    cursor: pointer;
+}
+
+@media (min-width:900px) {
+
+    body {
+        overflow-y: hidden;
+    }
+
+
+    .headerlistemobil {
+        display: none;
+
+    }
+
+    .logotext h3 {
+        display: none;
+    }
+
+    .pink_text2 h1 {
+        display: none;
+    }
+}
+
+@media (max-width:900px) {
+
+    .menubar {
+        display: none;
+
+    }
+
+    #arbejde {
+        display: none;
+    }
+
+    #mig {
+        display: none;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    .pink_text h1 {
+        display: none;
+    }
+
+    .logotext h3 {
+        z-index: auto;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        color: white;
+        font-size: 0.9rem;
+        position: absolute;
+        left: 6rem;
+        top: 0rem;
+    }
+
+    .pink_text2 h1 {
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-weight: 800;
+        color: rgb(252, 3, 145);
+        line-height: -10vw;
+        font-size: 10vw;
+        padding-left: 0vw;
+        position: relative;
+        top: -2vw;
+        left: 7vw;
+        line-height: 7rem;
+    }
+
+    .glow {
+        animation-name: glow_kf;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: both;
+
+
+    }
+
+    @keyframes glow_kf {
+        0% {
+            filter: drop-shadow(0px 0px 1px rgb(252, 3, 145))
+        }
+
+        50% {
+            filter: drop-shadow(0px 0px 10px rgb(252, 3, 145))
+        }
+
+        110% {
+            filter: drop-shadow(0px 0px 1px rgb(252, 3, 145))
+        }
+
+    }
+
+    footer h3 {
+        color: white;
+        font-size: 0.8rem;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+
+}
+
+
+.pink_text h1 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 800;
+    color: rgb(252, 3, 145);
+    line-height: -10vw;
+    font-size: 10vw;
+    padding-left: 0vw;
+    position: relative;
+    top: -2vw;
+    left: 7vw;
+    margin-left: 1vw;
+    line-height: 7rem;
+}

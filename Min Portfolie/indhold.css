@@ -1,0 +1,446 @@
+img {
+    width: 100%;
+    display: block;
+}
+
+section {
+    max-width: 1920px;
+    margin: 100px;
+    text-align: justify;
+}
+
+header {
+
+    height: 10vw;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(svg/baggrund.svg);
+    height: 1080px;
+    position: relative;
+
+}
+
+footer h3 {
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#logo {
+    position: relative;
+    width: 8vw;
+    height: 31vw;
+    top: -11vw;
+    left: 8vw;
+}
+
+.pink_text h1 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 800;
+    color: rgb(252, 3, 145);
+    line-height: 0vw;
+    font-size: 10vw;
+    padding-left: 0vw;
+    position: relative;
+    top: -20vw;
+    left: 11vw;
+    margin-left: 1vw;
+}
+
+/*billede */
+
+.image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#mig {
+    position: relative;
+    width: 8vw;
+    height: 31vw;
+    top: -97vw;
+    left: 60vw;
+}
+
+#arbejde {
+    position: relative;
+    width: 12vw;
+    height: 31vw;
+    top: -154vw;
+    left: 56vw;
+}
+
+/*Menu */
+.menu {
+    overflow: hidden;
+    float: left;
+}
+
+
+.menu .content {
+    display: block;
+    top: 3.5vw;
+    left: 58vw;
+    position: absolute;
+
+}
+
+.content a {
+    text-align: center;
+    color: #f4efe6;
+    font-size: 1.1vw;
+    text-decoration: none;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+    margin-left: 45px;
+}
+
+
+.menu .content a:hover {
+    color: #fc0391;
+}
+
+@media (min-width: 600px) {
+    /*Cases*/
+
+    #cases .section_wrapper {
+        display: grid;
+        position: relative;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 25px;
+        grid-gap: 50px;
+    }
+
+    #cases .col {
+        display: flex;
+        flex-direction: column;
+
+        margin-right: 20px;
+        position: relative;
+
+    }
+
+    .col1 {
+        padding-bottom: 0rem;
+    }
+
+    .col2 {
+        padding-bottom: 2rem;
+        background-color: #18191c;
+        padding-left: 2rem;
+        padding-top: 1rem;
+        padding-right: 2rem;
+
+    }
+
+    .col3 {
+        padding-bottom: 2rem;
+        background-color: #18191c;
+        padding-left: 2rem;
+        padding-top: 1rem;
+        padding-right: 2rem;
+    }
+
+    #buttonweb {
+        background: rgb(252, 3, 145);
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-size: 0.8rem;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 50px;
+        padding-top: 1rem;
+        padding-bottom: 1.2rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #buttonweb:hover {
+        background: white;
+        color: rgb(252, 3, 145);
+    }
+
+    #buttonweb {
+        position: absolute;
+        top: 80%;
+        left: 0%;
+
+    }
+
+    #buttonweb2 {
+        background: rgb(252, 3, 145);
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-size: 0.8rem;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 50px;
+        padding-top: 1rem;
+        padding-bottom: 1.2rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #buttonweb2:hover {
+        background: white;
+        color: rgb(252, 3, 145);
+    }
+
+    #buttonweb2 {
+        position: absolute;
+        top: 25%;
+        left: 0%;
+
+    }
+
+    .glow {
+        animation-name: glow_kf;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: both;
+
+
+    }
+
+    @keyframes glow_kf {
+        0% {
+            filter: drop-shadow(0px 0px 1px rgb(252, 3, 145))
+        }
+
+        50% {
+            filter: drop-shadow(0px 0px 10px rgb(252, 3, 145))
+        }
+
+        110% {
+            filter: drop-shadow(0px 0px 1px rgb(252, 3, 145))
+        }
+    }
+
+}
+
+h2 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 800;
+    color: rgb(252, 3, 145);
+    line-height: 0vw;
+    font-size: 3vw;
+    padding-left: 0vw;
+    position: relative;
+    top: -1vw;
+    left: -1vw;
+    margin-left: 1vw;
+}
+
+h3 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bold;
+    color: rgb(252, 3, 145);
+    line-height: 0vw;
+    font-size: 1.5vw;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+    line-height: 1.2vw;
+    font-size: 0.8vw;
+    margin-bottom: 2rem;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+    line-height: 1.2vw;
+    font-size: 0.8vw;
+
+}
+
+a:hover {
+    color: rgb(252, 3, 145);
+}
+
+.col .col2 h2 {
+    padding-bottom: 8rem;
+}
+
+ul {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+    color: rgb(252, 3, 145);
+    line-height: 1.5vw;
+    font-size: 1vw;
+    padding-left: 1rem;
+}
+
+#mig {
+    position: relative;
+    width: 8vw;
+    height: 31vw;
+    top: -54.5vw;
+    left: 19vw;
+}
+
+#burgerfane {
+    background-color: #fc0391;
+    margin-right: 18rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-decoration: none;
+    line-height: 1.6;
+    z-index: 2;
+    position: relative;
+    text-align: left;
+    left: 2rem;
+    top: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
+}
+
+.headerlistemobil a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 1.6;
+}
+
+.headerlistemobil a:hover {
+    color: #1d1d1d;
+}
+
+#burgerfane a {
+    font-size: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+#burgerknap {
+    color: white;
+    display: inline-block;
+    font-size: 2rem;
+    position: absolute;
+    left: 2rem;
+
+}
+
+pointer {
+    cursor: pointer;
+}
+
+@media (min-width:900px) {
+
+
+    .headerlistemobil {
+        display: none;
+
+    }
+
+    .logotext h3 {
+        display: none;
+    }
+
+}
+
+@media (max-width:900px) {
+
+    .menubar {
+        display: none;
+
+    }
+
+
+    #logo {
+        display: none;
+    }
+
+    .pink_text h1 {
+        display: none;
+    }
+
+    .logotext h3 {
+        z-index: auto;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        color: white;
+        font-size: 0.9rem;
+        position: absolute;
+        left: 6rem;
+        top: 0rem;
+    }
+
+    h3 {
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-weight: bold;
+        color: rgb(252, 3, 145);
+        line-height: 4vw;
+        font-size: 3vw;
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+
+    }
+
+    h2 {
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-weight: bold;
+        color: rgb(252, 3, 145);
+        line-height: 6vw;
+        font-size: 5vw;
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        color: white;
+        line-height: 3vw;
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    #buttonweb {
+        background: rgb(252, 3, 145);
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-size: 0.8rem;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 30px;
+        padding-top: 0.5rem;
+        padding-bottom: 0.7rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    #buttonweb:hover {
+        background: white;
+        color: rgb(252, 3, 145);
+        text-decoration: none;
+    }
+
+    #buttonweb {
+        position: relative;
+        top: 20%;
+        left: 0%;
+
+    }
+
+    .video {
+        align-items: center;
+        width: 300px;
+
+    }
+}

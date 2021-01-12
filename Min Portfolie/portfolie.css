@@ -1,0 +1,329 @@
+img {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.responsiv {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    max-width: 1920px;
+    margin: 100px;
+    text-align: justify;
+}
+
+header {
+
+    height: 10vw;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(svg/baggrund.svg);
+    height: 1080px;
+    position: relative;
+
+}
+
+footer h3 {
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#logo {
+    position: relative;
+    width: 8vw;
+    height: 31vw;
+    top: -11vw;
+    left: 8vw;
+}
+
+.pink_text h1 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 800;
+    color: rgb(252, 3, 145);
+    line-height: 0vw;
+    font-size: 10vw;
+    padding-left: 0vw;
+    position: relative;
+    top: -20vw;
+    left: 11vw;
+    margin-left: 1vw;
+}
+
+/*billede */
+
+.image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#mig {
+    position: relative;
+    width: 8vw;
+    height: 31vw;
+    top: -97vw;
+    left: 60vw;
+}
+
+#arbejde {
+    position: relative;
+    width: 12vw;
+    height: 31vw;
+    top: -154vw;
+    left: 56vw;
+}
+
+.pulse {
+    animation-name: pulse_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes pulse_kf {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+
+/*Menu */
+.menu {
+    overflow: hidden;
+    float: left;
+}
+
+
+.menu .content {
+    display: block;
+    top: 3.5vw;
+    left: 58vw;
+    position: absolute;
+
+}
+
+.content a {
+    text-align: center;
+    color: #f4efe6;
+    font-size: 1.1vw;
+    text-decoration: none;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+    margin-left: 45px;
+}
+
+
+.menu .content a:hover {
+    color: #fc0391;
+}
+
+@media (min-width: 600px) {
+    /*Cases*/
+
+
+    .voks:hover {
+        transform: scale(1.04);
+        cursor: pointer;
+    }
+
+
+
+    #cases .section_wrapper {
+        display: grid;
+        position: relative;
+        top: 50%;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top: 10px;
+    }
+
+    #cases .col {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 20px;
+
+    }
+
+    .col1 {
+        padding-bottom: 2rem;
+
+    }
+
+    .col2 {
+        padding-bottom: 2rem;
+
+    }
+
+    .col3 {
+        padding-bottom: 2rem;
+
+    }
+}
+
+h2 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 800;
+    color: rgb(252, 3, 145);
+    line-height: 0vw;
+    font-size: 3vw;
+    padding-left: 0vw;
+    position: relative;
+    top: -1vw;
+    left: -1vw;
+    margin-left: 1vw;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+    line-height: 1.2vw;
+    font-size: 0.8vw;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bold;
+    color: white;
+    line-height: 0vw;
+    font-size: 1vw;
+    text-align: center;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+
+}
+
+#burgerfane {
+    background-color: #fc0391;
+    margin-right: 18rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-decoration: none;
+    line-height: 1.6;
+    z-index: 2;
+    position: relative;
+    text-align: left;
+    left: 2rem;
+    top: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
+}
+
+.headerlistemobil a {
+    color: white;
+    text-decoration: none;
+}
+
+.headerlistemobil a:hover {
+    color: #1d1d1d;
+}
+
+#burgerfane a {
+    font-size: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+#burgerknap {
+    color: white;
+    display: inline-block;
+    font-size: 2rem;
+    position: absolute;
+    left: 2rem;
+
+}
+
+pointer {
+    cursor: pointer;
+}
+
+@media (min-width:900px) {
+
+
+    .headerlistemobil {
+        display: none;
+
+    }
+
+    .logotext h3 {
+        display: none;
+    }
+
+}
+
+@media (max-width:900px) {
+
+    .menubar {
+        display: none;
+
+    }
+
+
+    #logo {
+        display: none;
+    }
+
+    .pink_text h1 {
+        display: none;
+    }
+
+    .logotext h3 {
+        z-index: auto;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        color: white;
+        font-size: 0.9rem;
+        position: absolute;
+        left: 6rem;
+        top: 0rem;
+    }
+
+
+    h3 {
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-weight: bold;
+        color: white;
+        line-height: 0vw;
+        font-size: 3vw;
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+
+    }
+
+    h2 {
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-weight: bold;
+        color: rgb(252, 3, 145);
+        line-height: 0vw;
+        font-size: 7vw;
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        color: white;
+        line-height: 3vw;
+        font-size: 2vw;
+        text-align: center;
+    }
+}
